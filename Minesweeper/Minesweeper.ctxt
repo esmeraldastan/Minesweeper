@@ -1,4 +1,6 @@
 #BlueJ class context
 comment0.params=board
 comment0.target=Minesweeper(int)
-numComments=1
+comment1.params=
+comment1.target=void\ printSquareMinesweeper()
+numComments=2
