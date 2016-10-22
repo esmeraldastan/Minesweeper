@@ -15,7 +15,8 @@ public class Minesweeper{
             list[i] = i +1;
         }
    }
-  public void printSquareMinesweeper(){
+  public void printBoard(){
+      for (in}}  ublic void printSquareMinesweeper(){
       System.out.println(">>>>>>>>>>Welcome To Minesweeper<<<<<<<<");
       for (int i = 0; i<list.length; i++){
           if( i % 10 == 0 ){
