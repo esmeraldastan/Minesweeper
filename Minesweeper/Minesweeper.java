@@ -19,6 +19,7 @@ public class Minesweeper{
   public Minesweeper(){
       this(10,10);
    }
+<<<<<<< HEAD
   public void printSquareMinesweeper(){
       //System.out.println(">>>>>>>>>>Welcome To Minesweeper<<<<<<<<");
      for (int i = 0; i < board.length; i++){
@@ -30,6 +31,19 @@ public class Minesweeper{
             }
             System.out.println();
         
+=======
+  public void printBoard(){
+      for (in}}  ublic void printSquareMinesweeper(){
+      System.out.println(">>>>>>>>>>Welcome To Minesweeper<<<<<<<<");
+      for (int i = 0; i<list.length; i++){
+          if( i % 10 == 0 ){
+              System.out.println(" ");
+        }
+          if (i < 10 && i > 0){
+            System.out.print(" ");
+        }
+        System.out.print(list[i]+ " ");
+>>>>>>> origin/master
      }
   }
 }
